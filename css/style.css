@@ -295,7 +295,7 @@ footer{
   display: flex;
 }
 .foot small{
-  margin-right: 5px;
+  margin: 5px;
 }
 a {
   cursor: pointer;
