@@ -1,0 +1,309 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+a, img {
+  display: block;
+  text-decoration:none;
+}
+ul{
+  list-style: none;
+  text-decoration: none;
+}
+header{
+  width: 100%;
+  height: 50px;
+  background: #2c2c2d;
+  color: white;
+  text-decoration: none;
+}
+.logo
+{
+  width: 100px;
+  display: inline-block;
+  margin: 9px 20px;
+  font-size: 0.8em;
+  float: left;
+}
+.logo h2{
+  font-weight: normal;
+}
+.nav{
+  width: 200px;
+  float: left;
+}
+.navbar{
+  display: flex;
+  margin: 16px 2px;
+}
+.navbar a{
+  color: white;
+  margin-right: 5px;
+}
+.li3 a{
+  color: grey;
+}
+.searcharea{
+  float: right;
+  display: flex;
+}
+.searchbar input{
+  height: 30px;
+  margin: 10px;
+  padding: 5px;
+}
+.searchbutton button{
+  width: 63px;
+  height: 28px;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: -1px 1px green;
+  border: 1px solid green;
+  background: #2c2c2d;
+  color: green;
+}
+.carousel{
+  width: 100%;
+  height: 615px;
+  background: #aeaeb2;
+  text-align: center;
+}
+.notes{
+  position: relative;
+  bottom: 355px;
+  left: 325px;
+  width: 700px;
+  height: 200px;
+}
+.notes h2{
+  color: white;
+  display: initial;
+  text-shadow: 1px 1px black;
+  font-size: 2.5em;
+  width: 480px;
+  position: relative;
+}
+.notes p{
+  color: white;
+  position: relative;
+  text-shadow: 1px 1px black;
+  top: 10px;
+}
+.buton{
+  width: 100px;
+  text-align: center;
+  height: 40px;
+  background: blue;
+  color: white;
+  position: relative;
+  top: 18px;
+  cursor: pointer;
+  left: 275px;
+}
+.slides{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  margin: 0px auto;
+  z-index: 0;
+}
+.slides div{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.slides img{
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+}
+.second{
+  width: 100%;
+  height: 400px;
+}
+.container{
+  width: 900px;
+  height: 400px;
+  margin: 50px 220px;
+}
+.headi{
+  width: 270px;
+  height: 300px;
+  margin-right:  30px;
+  float: left;
+  text-align: center;
+}
+.headi h3{
+  color: #2c2c2d;
+  font-size: 2.3em;
+  position: relative;
+  top: 25px;
+}
+.headi p{
+  position: relative;
+  top: 30px;
+}
+
+.butt {
+  width: 120px;
+  text-align: center;
+  height: 35px;
+  border: 1px solid #2c2c2d;
+  color: #2c2c2d;
+  border-radius: 3px;
+  position: relative;
+  top: 50px;
+  cursor: pointer;
+  left: 65px;
+}
+.butt p{
+  position: relative;
+  top: 6px;
+}
+
+.logo1{
+  position: relative;
+  top: 15px;
+  left: 80px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #2c2c2d;
+}
+hr{
+  width: 900px;
+  margin: auto;
+}
+.container2{
+  width: 100%;
+  height: 350px;
+}
+.content{
+  width: 60%;
+  position: relative;
+  float: left;
+  height: 230px;
+  top: 70px;
+}
+.content h2{
+  font-size: 2.4em;
+  color: #2c2c2d;
+
+}
+.con{
+  width: 900px;
+  height: 300px;
+  margin: 50px auto;
+}
+.content p{
+  font-size: 1em;
+  color: #2c2c2d;
+  position: relative;
+  top: 15px;
+
+}
+.image1{
+  float: right;
+  width: 300px;
+  background: #2c2c2d;
+  height: 300px;
+}
+.container3{
+  width: 100%;
+  height: 350px;
+}
+.content1{
+  width: 60%;
+  position: relative;
+  float: right;
+  height: 230px;
+  top: 70px;
+}
+.content1 h2{
+  font-size: 2.4em;
+  color: #2c2c2d;
+
+}
+.con2{
+  width: 900px;
+  height: 300px;
+  margin: 50px auto;
+}
+.content1 p{
+  font-size: 1em;
+  color: #2c2c2d;
+  position: relative;
+  top: 15px;
+
+}
+.image2{
+  float: left;
+  width: 300px;
+  background: #2c2c2d;
+  height: 300px;
+}
+
+.container4{
+  width: 100%;
+  height: 350px;
+}
+.content2{
+  width: 60%;
+  position: relative;
+  float: left;
+  height: 230px;
+  top: 70px;
+}
+.content2 h2{
+  font-size: 2.4em;
+  color: #2c2c2d;
+
+}
+.con3{
+  width: 900px;
+  height: 300px;
+  margin: 50px auto;
+}
+.content2 p{
+  font-size: 1em;
+  color: #2c2c2d;
+  position: relative;
+  top: 15px;
+
+}
+.image3{
+  float: right;
+  width: 300px;
+  background: #2c2c2d;
+  height: 300px;
+}
+footer{
+  width: 100%;
+  height: 50px;
+}
+.footer{
+  width: 900px;
+  height: 100%;
+  margin: 0px auto;
+}
+.foot{
+  width: 50%;
+  height: 100%;
+  float: left;
+  display: flex;
+}
+.foot small{
+  margin-right: 5px;
+}
+a {
+  cursor: pointer;
+}
+.foot2{
+  float: right;
+}

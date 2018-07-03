@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CodingTest</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js">
+    </script>
+  </head>
+  <body>
+    <header>
+        <div class="logo">
+          <h1>Carousel</h1>
+        </div>
+        <div class="nav">
+          <ul class="navbar">
+            <li> <a href="#">Home</a> </li>
+            <li> <a href="#">Link</a> </li>
+            <li class="li3"> <a href="#">Disabled</a></li>
+          </ul>
+        </div>
+        <div class="searcharea">
+          <div class="searchbar">
+            <input type="text" name="searchbar" placeholder="Search">
+          </div>
+          <div class="searchbutton">
+            <button type="submit" name="button">Search</button>
+          </div>
+        </div>
+    </header>
+    <main>
+      <div class="carousel">
+        <div class="slides">
+          <div>
+            <img src="image/a.jpg" alt="pic1">
+          </div>
+          <div>
+            <img src="image/b.jpg" alt="pic2">
+          </div>
+          <div>
+            <img src="image/c.jpg" alt="pic3">
+          </div>
+        </div>
+        <div class="notes">
+          <h2>Another Headline Example</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          <div class="buton">
+            <p>Learn More</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="second">
+        <div class="container">
+          <div class="headi">
+            <div class="logo1">
+
+            </div>
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="butt">
+              <p>view Details >></p>
+            </div>
+          </div>
+          <div class="headi">
+            <div class="logo1">
+            </div>
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="butt">
+              <p>view Details >></p>
+            </div>
+          </div>
+          <div class="headi">
+            <div class="logo1">
+
+            </div>
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="butt">
+              <p>view Details >></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container2">
+        <div class="con">
+          <div class="content">
+            <h2>First featurette heading. It'll blow your mind.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <div class="image1">
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container3">
+        <div class="con2">
+          <div class="image2">
+          </div>
+          <div class="content1">
+            <h2>Oh Yeah, It's That good. See for yourself.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container4">
+        <div class="con3">
+          <div class="content2">
+            <h2>And Lastly,this one. Check Mate</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <div class="image3">
+          </div>
+        </div>
+      </div>
+      <hr>
+        <footer>
+          <div class="footer">
+            <div class="foot">
+              <small>&copy; 2017 Company, Inc.</small>
+              <small><a href="#">Privacy</a></small>
+              <small> <a href="#">Terms</a> </small>
+            </div>
+            <div class="foot2">
+              <small> <a href="#">Back to top</a> </small>
+            </div>
+          </div>
+        </footer>
+    </main>
+    <script type="text/javascript">
+    $(".slides > div:gt(0)").hide();
+
+setInterval(function() {
+  $('.slides > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('.slides');
+}, 3000);
+    </script>
+  </body>
+</html>
